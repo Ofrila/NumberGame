@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guess a number from 1 to 9999"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="30sp"
+         />
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="120sp"
+        android:layout_height="55sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="88sp"
+
+        android:hint="   XXXX"
+        android:maxEms="4"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/guess"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="158sp"
+        android:layout_height="83sp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/btnshape"
+        android:text="check"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+</LinearLayout>
